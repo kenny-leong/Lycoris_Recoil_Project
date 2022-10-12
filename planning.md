@@ -33,7 +33,7 @@ Page 3 (about.html)
 -1 Header using H1
 -1 ordered or unordered list of links to 5 other websites
 
-Page 4 (services.html)
+Page 4 (gallery.html)
 -Nav bar linking to all 4 pages
 -1 header using H1 
 -6 images displayed 3 wide and 2 down

@@ -99,5 +99,47 @@ body {
     margin-bottom: 5px;
 }
 
+.contact-form {
+    display: block;
+    margin: auto;
+}
+
+.contact-form p {
+    text-align: center;
+}
+
+legend {
+    font-size: 30px;
+}
+
+fieldset, input, legend, textarea {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+input[type="text"], select, textarea, p {
+    font: 1.25rem / 1.5 sans-serif;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+}
 
 
+input, select, textarea {
+  border: 2px solid #333;
+  background-color: white;
+  border-radius: 0.25rem;
+}
+
+input[type="submit"] {
+    font: 1.25rem sans-serif;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    padding: 0.75rem 1.25rem;
+    margin: auto;
+    display: block;
+}

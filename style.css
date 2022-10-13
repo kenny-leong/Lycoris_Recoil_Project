@@ -1,10 +1,12 @@
 header img {
     height: 80px;
+    margin-left: 40px;
 }
 
 body {
     font-family: sans-serif;
     margin-top: 80px;
+    padding: 30px;
 }
 
 header {
@@ -14,5 +16,20 @@ header {
     left: 0;
     right: 0;
     height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
 }
 

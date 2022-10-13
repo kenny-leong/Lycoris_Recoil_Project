@@ -38,10 +38,15 @@ header li a {
 
 h1 {
     text-align: center;
+    color: #f0555a;
 }
 
 .homepage-body p {
     line-height: 1.8;
+}
+
+.homepage-body h2 {
+    color: #00b4aa;
 }
 
 .homepage-body img {

@@ -82,5 +82,22 @@ body {
     text-decoration: none;
 }
 
+.gallery {
+    padding-top: 20px;
+    line-height:0;
+   -webkit-column-count:3; /* split it into 5 columns */
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:3;
+   -moz-column-gap:5px;
+   column-count:3;
+   column-gap:5px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
 
 
